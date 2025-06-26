@@ -17,6 +17,9 @@ test-paths: ["tests"]
 seed-paths: ["seeds"]
 macro-paths: ["macros"]
 snapshot-paths: ["snapshots"]
+sources:
+  jaffle_shop:
+    +enabled: true
 
 clean-targets:         # directories to be removed by `dbt clean`
   - "target"
